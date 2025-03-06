@@ -1,3 +1,6 @@
+/* body {
+    background-image: url('/images/bg-paper.jpg');
+  } */
 
 .display-pic img {
     height: 100%;
@@ -29,4 +32,8 @@
     color: aliceblue;
     padding: 5px;
     margin: 0;
+}
+
+.byline {
+    font-family: serif;
 }
