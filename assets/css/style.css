@@ -1,0 +1,32 @@
+
+.display-pic img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#nav {
+    display: flex;
+}
+
+#nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brand-items {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 100%;
+    padding: 5px;
+    /* max-width: 5%; */
+}
+
+#title-text {
+    color: aliceblue;
+    padding: 5px;
+    margin: 0;
+}
