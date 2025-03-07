@@ -28,6 +28,10 @@
     /* max-width: 5%; */
 }
 
+#logo-title {
+    height: 75%;
+}
+
 #title-text {
     color: aliceblue;
     padding: 5px;
