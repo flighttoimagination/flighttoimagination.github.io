@@ -38,10 +38,14 @@
     margin: 0;
 }
 
-.byline {
+.heading-font {
     font-family: serif;
 }
 
-.bio-section{
-    
+.blurb{
+    text-align: left;
+}
+
+.art-description {
+    padding: 16px;
 }
