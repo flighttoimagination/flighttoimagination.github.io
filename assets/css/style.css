@@ -49,3 +49,12 @@
 .art-description {
     padding: 16px;
 }
+
+.pointillism-box {
+    /* display: flex; */
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: 100%;
+}
