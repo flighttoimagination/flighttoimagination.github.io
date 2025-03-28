@@ -2,6 +2,25 @@
     background-image: url('/images/bg-paper.jpg');
   } */
 
+
+.nav-phone {
+    display: none!important;
+}
+
+.nav-large {
+    display: block!important;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-phone {
+        display: block!important;
+    }
+
+    .nav-large {
+        display: none!important;
+    }
+}
+
 .display-pic img {
     height: 100%;
     object-fit: cover;
@@ -42,7 +61,7 @@
     font-family: serif;
 }
 
-.blurb{
+.blurb {
     text-align: left;
 }
 
@@ -63,7 +82,15 @@
     float: right;
     width: 32%;
     padding: 8px;
-  }
-  
-  .grid-item--width2 { width: 400px; }
-  .grid-item--height2 { height: 140px; }
+}
+
+.grid-item--width2 {
+    width: 400px;
+}
+
+.grid-item--height2 {
+    height: 140px;
+}
+
+
+
