@@ -4,12 +4,13 @@
 
 
 .nav-phone {
-    display: none!important;
+    display: none !important;
 }
 
 .nav-large {
-    display: block!important;
+    display: block !important;
 }
+
 /* 
 @media screen and (max-device-width: 600px) {
     .nav-phone {
@@ -28,12 +29,21 @@
 
 #nav {
     display: flex;
+    background-color: #1d6c6e;
 }
 
 #nav ul {
     display: flex;
     align-items: center;
     justify-content: left;
+}
+
+input[type=submit], .button {
+    background-color: #1d6c6e;
+}
+
+#nav a:hover , input[type=submit]:hover, .button:hover {
+    background-color: #2aa0a3;
 }
 
 #brand-items {
@@ -48,7 +58,7 @@
 }
 
 #logo-title {
-    height: 75%;
+    height: 100%;
 }
 
 #title-text {
@@ -91,6 +101,3 @@
 .grid-item--height2 {
     height: 140px;
 }
-
-
-
