@@ -1554,7 +1554,7 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #ffffff !important;
+		color: #2d5cc3 !important;
 	}
 
 	form :-moz-placeholder {
@@ -1734,7 +1734,7 @@ input, select, textarea {
 			button.alt:hover,
 			.button.alt:hover {
 				background-color: #a3dbdc;
-				color: #fff !important;
+				color: #335d8d !important;
 			}
 
 			input[type="button"].alt:active,
@@ -1742,7 +1742,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #3f3f3f;
+				background-color: #ffffff;
 			}
 
 /* List */
@@ -2023,7 +2023,7 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #1d2141;
+				background: #d4fff8;
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
