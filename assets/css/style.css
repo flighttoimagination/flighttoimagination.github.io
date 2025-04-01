@@ -98,6 +98,10 @@ input[type=submit], .button {
     width: 96%;
 }
 
+.grid-item-width3 {
+    width: 64%;
+}
+
 .grid-item--height2 {
     height: 140px;
 }
