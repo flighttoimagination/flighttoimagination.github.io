@@ -42,8 +42,14 @@ input[type=submit], .button {
     background-color: #1d6c6e;
 }
 
-#nav a:hover , input[type=submit]:hover, .button:hover {
+#nav a:hover , input[type=submit]:hover, .button:hover, ul.social li a:hover {
     background-color: #2aa0a3;
+}
+
+
+ul.social li a:before {
+    color: white!important;
+    background-color: #1d6c6e;
 }
 
 #brand-items {
